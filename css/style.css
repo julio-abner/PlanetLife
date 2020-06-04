@@ -1,0 +1,124 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url("/img/gif-cloud.gif");
+  color: beige;
+  font-family: 'BenchNine', sans-serif;
+}
+
+.header{
+  background-color:rgba(44, 169, 226, 0.952);
+  color: beige;
+  height: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  font-size: 1.3em;
+  font-family: 'Lobster', cursive;
+
+}
+
+.header img{
+  margin-right: 1em;
+  height: 1.6em;
+}
+
+.box_principal{
+  background-color:rgba(44, 169, 226);
+  color: beige;
+  padding: 3px;
+  margin: 3em auto;
+  width:  60vw;
+  height: 75vh;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1em #e7f1f1 ;
+    -webkit-box-shadow: 0px 0px 1em #e7f1f1;
+    -moz-box-shadow: 0px 0px 1em #e7f1f1;
+}
+
+.box_principal h2{
+  font-family: 'Courgette', cursive;;
+  font-size: 3.5em;
+  margin: 7px;
+}
+
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-icons img{
+  width: 3em;
+  margin: 12px;
+}
+
+.register{
+  display: flex;
+  flex-direction: column;
+  color: beige;
+}
+
+.input-box{
+  margin: 10px auto;
+  width: 60%;
+  border-bottom: 2px solid beige;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.input-box input{
+  width: 90%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: beige;
+}
+
+::placeholder{
+  color: beige;
+}
+
+.fa{
+  margin-right: 10px;
+}
+
+.eye{
+  position: absolute;
+}
+
+#hide1{
+  display: none;
+}
+
+.submit-btn{
+  margin-top: 20px;
+  margin: 10px auto;
+  padding: 5px;
+  width: 20vw ;
+  border: 1px solid beige;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  color: rgba(44, 169, 226);
+  font-size: 0.9em;
+  outline: none;
+}
+
+.input-checkbox{
+  margin: 7px;
+}
+
+#inputCheckbox{
+  cursor: pointer;
+}
+
+.input-checkbox label{
+  color: beige;
+  font-size: 1.1em;
+  
+}

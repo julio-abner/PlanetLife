@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=BenchNine&family=Courgette&family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Projeto</title>
+</head>
+<body>
+  <header>
+    <nav class="header">
+      <img src="./img/global.svg" alt="planet life">
+      <h3>Planet Life</h3>
+    </nav>
+  </header>
+
+  <div class="box_principal">
+     <h2>Cadastro</h2>
+     <div class="social-icons">
+       <img src="./img/facebook.svg" alt="facebook">
+       <img src="./img/twitter.svg" alt="twitter">
+       <img src="./img/google-plus.svg" alt="google-plus">
+     </div>
+     <form id="register" class="register">
+        <div class="input-box">
+          <i class="fa fa-user"></i>
+          <input placeholder="Nome Completo" type="text"  id="inputName">
+        </div>
+
+        <div class="input-box">
+          <i class="fa fa-envelope"></i>
+          <input placeholder="E-mail" type="email"  id="inputEmail">
+        </div>
+
+        <div class="input-box">
+          <i class="fa fa-key"></i>
+          <input placeholder="Senha" type="password" id="inputPassword">
+          
+          <span class="eye" onclick="hideEye()">
+            <i  id="hide1" class="fa fa-eye"></i>
+            <i  id="hide2" class="fa fa-eye-slash"></i>
+          </span>
+        </div>
+
+        <div class="input-checkbox">
+          <input type="checkbox" id="inputCheckbox">
+          <label for="checkbox">Aceitar termos</label>
+        </div>
+
+        <button type="submit" class="submit-btn">Cadastar</button>
+
+      </form>
+
+
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
